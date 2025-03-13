@@ -1,35 +1,39 @@
-# pomodoro-timer
+# Pomodoro Timer 
 
-This template should help get you started developing with Vue 3 in Vite.
+- Created using Vue JS and Vanilla CSS
 
-## Recommended IDE Setup
+- Features Implemented:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Customizable Durations:
 
-## Customize configuration
+- Work sessions (15, 25, 45, or 50 minutes)
+- Short breaks (3, 5, or 10 minutes)
+- Long breaks (10, 15, 20, or 30 minutes)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+- Visual Timer:
 
-```sh
-npm install
-```
+- Circular progress indicator that changes color based on the session type
+- Clear display of remaining time and current mode
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+- Control Functions:
 
-### Compile and Minify for Production
+- Start, pause, and reset buttons
+- Real-time updates as the timer counts down
 
-```sh
-npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+- Notifications:
 
-```sh
-npm run lint
-```
+- Audio alert when a session ends
+- Browser notifications (with permission)
+- Visual indication of session changes
+
+
+- Session Tracking:
+
+- Counts completed Pomodoros
+- Tracks progress toward long breaks
+- Automatically alternates between work and break sessions
+
+
